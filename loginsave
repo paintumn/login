@@ -1,0 +1,8 @@
+usernames = [input("Username: ")]  # , "Basketboyu2", "jackson5", "LatKsa"]
+passwords = [input("Password: ")]  # , "3jsjJJ", "ksksj", "msjjh122"]
+account = [usernames, passwords]
+print("")
+for i in range(len(usernames)):
+    print("username: " + account[0][i])
+    print("password: " + account[1][i])
+    print("")
